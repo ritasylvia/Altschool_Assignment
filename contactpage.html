@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Contact</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+  
+<body>
+  <div class="header">
+    <header>
+      <a href="Aboutme.html">About Me</a> 
+      <a href="contactpage.html">Contact</a>
+      <a href="registerpage.html">Register</a>
+      <a href="loginpage.html">Login</a> 
+      <a href="calculator.html">Calculator</a>
+    </header>
+  </div>
+  
+  <div class="container">
+  <form action="">
+    <div>
+      <label for="name"> Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name.." required>
+    </div>
+
+    <div><label for="email">Email address</label>
+    <input type="email" id="email" name="email" placeholder="Your email.." required>
+</div>
+    
+    <div><label for="message">Message</label>
+    <textarea id="message" name="message" placeholder="Write something.." style="height:100px" required></textarea >
+</div>
+    
+    <div><label for="priority">Priority</label>
+      <select name="priority" required>
+        <option value="critical">Low</option>
+        <option value="important">Normal</option>
+        <option value="normal">Important</option>
+        <option value="low">Critical</option>
+      </select>
+</div>
+    <input type="submit" value="Submit">
+
+  </form>
+  </div>
+  
+    <script src="script.js"></script>
+</body>
+
+</html>
